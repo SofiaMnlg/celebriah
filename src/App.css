@@ -1,0 +1,98 @@
+.bg-navy {
+  background-color: #0a1a44 !important;
+  color: white !important;
+}
+
+.bg-navy .nav-link,
+.bg-navy .navbar-brand,
+.bg-navy .dropdown-toggle,
+.bg-navy .btn {
+  color: white !important;
+}
+
+.btn-primary {
+  background-color: #0a1a44 !important;
+  border-color: #0a1a44 !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #081433 !important;
+  border-color: #081433 !important;
+}
+
+.text-primary {
+  color: #0a1a44 !important;
+}
+
+a {
+  color: #0a1a44 !important;
+}
+
+a:hover {
+  color: #081433 !important;
+}
+
+
+/* =====================
+   GLOBAL FONT
+===================== */
+* {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+/* =====================
+   CUSTOM NAVY THEME
+===================== */
+.bg-navy {
+  background-color: #0A1A44 !important;  /* Navy */
+  color: white !important;
+}
+
+.bg-navy a,
+.bg-navy .nav-link {
+  color: white !important;
+}
+
+/* =====================
+   LOGO
+===================== */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #000670aa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* =====================
+   ANIMATION
+===================== */
+@keyframes logo-spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* =====================
+   CARD
+===================== */
+/* .card {
+  padding: 2em;
+} */
+
+.read-the-docs {
+  color: #888;
+}

@@ -1,0 +1,51 @@
+/* ====== RESET STYLE UNTUK BOOTSTRAP ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ====== WARNA TEMA (NAVY BLUE PALETTE) ====== */
+:root {
+  --bs-primary: #0a1931; /* Navy utama */
+  --bs-primary-rgb: 10, 25, 49;
+  --bs-secondary: #032362; /* Biru terang */
+  --bs-secondary-rgb: 24, 90, 219;
+  --bs-body-bg: #ffffff;
+  --bs-body-color: #212529;
+}
+
+/* ====== DASAR TATA LETAK ====== */
+body {
+  font-family: "Poppins", system-ui, sans-serif;
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  min-height: 100vh;
+  display: block;
+}
+
+/* ====== LINK & TOMBOL ====== */
+a {
+  color: var(--bs-primary);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--bs-secondary);
+}
+
+button, .btn-primary {
+  background-color: var(--bs-primary) !important;
+  border-color: var(--bs-primary) !important;
+}
+button:hover, .btn-primary:hover {
+  background-color: var(--bs-secondary) !important;
+  border-color: var(--bs-secondary) !important;
+}
+
+/* ====== HERO SECTION ====== */
+.hero-banner {
+  background: linear-gradient(135deg, #0a1931 0%, #002060 100%);
+  color: white;
+  min-height: 70vh;
+  padding: 80px 20px;
+}
