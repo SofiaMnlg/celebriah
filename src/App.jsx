@@ -23,7 +23,7 @@ import ProtectedVendorRoute from "./components/ProtectedVendorRoute";
 // ADMIN
 import AdminLogin from "./pages/admin/adminLogin";
 import ProtectedAdminRoute from "./components/ProtectedAdminRoute";
-import AdminDashboard from "./components/AdminDashboard";
+import AdminDashboard from "./components/AdminDashboard.jsx";
 
 import ChangePass from "./pages/vendor/ChangePass";
 
