@@ -22,8 +22,8 @@ import Footer from "./components/Footer";
 import ProtectedVendorRoute from "./components/ProtectedVendorRoute";
 // ADMIN
 import AdminLogin from "./pages/admin/adminLogin";
-import AdminDashboard from "./pages/admin/AdminDashboard";
 import ProtectedAdminRoute from "./components/ProtectedAdminRoute";
+import AdminDashboard from "./components/AdminDashboard";
 
 import ChangePass from "./pages/vendor/ChangePass";
 
