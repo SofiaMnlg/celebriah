@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import api from "../../services/api";
-import ProductCard from "../../components/ProductCard";
+import ProductCard from "../../components/productCard";
 
 export default function VendorStore() {
   const { id } = useParams();
