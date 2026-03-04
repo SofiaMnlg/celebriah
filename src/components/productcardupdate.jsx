@@ -18,7 +18,7 @@ export default function ProductCard({ product }) {
         <p className="card-text text-muted">
           Rp {product.price.toLocaleString("id-ID")}
         </p>
-
+<a href=""></a>
         <p className="card-text">
           {product.description?.slice(0, 80)}...
         </p>
