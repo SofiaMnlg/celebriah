@@ -25,7 +25,7 @@ export default function HomePage() {
       caption: "Diskon hingga 40% untuk semua jasa vendor.",
     },
     {
-      img: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1400",
+      img: "https://i.pinimg.com/1200x/0c/d5/74/0cd5749463b0e383297abdf79cd2661e.jpg",
       title: "Promo Hari Raya!",
       caption: "Rayakan momen spesial dengan promo eksklusif.",
     },
