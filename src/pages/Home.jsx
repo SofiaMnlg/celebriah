@@ -20,14 +20,19 @@ export default function HomePage() {
   /* ================= PROMO DATA ================= */
   const promoHariBesar = [
     {
-      img: "https://images.unsplash.com/photo-1589810264340-ea5d8c7a1a34?w=1400",
+      img: "https://gambar.sgp1.digitaloceanspaces.com/wp-content/uploads/2021/04/Lebaran-Hampers-1.jpg",
       title: "Promo Akhir Tahun!",
       caption: "Diskon hingga 40% untuk semua jasa vendor.",
     },
     {
-      img: "https://i.pinimg.com/1200x/0c/d5/74/0cd5749463b0e383297abdf79cd2661e.jpg",
+      img: "https://www.wowkeren.com/display/images/photo/2020/05/20/00311749s1.jpg",
       title: "Promo Hari Raya!",
       caption: "Rayakan momen spesial dengan promo eksklusif.",
+    },
+    {
+      img: "https://www.bcalife.co.id/storage/articles/share/cari-hampers-lebaran-ini-4-ide-unik-yang-juga-menyehatkan-1680756925.jpg",
+      title: "Selamat Hari Rayaaaaaaaaaaaaaa",
+      caption: "berikan yang terbaik di bulan yang baikkk.",
     },
   ];
 
