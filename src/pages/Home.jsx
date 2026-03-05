@@ -45,6 +45,10 @@ export default function HomePage() {
       img: "https://images.unsplash.com/photo-1504196606672-aef5c9cefc92?w=1200",
       title: "Dekorasi + Musik Wedding Pack",
     },
+    {
+      img: "https://pernikahan.or.id/wp-content/uploads/2023/03/Michael-Westcott-Films-Scotland-Wedding-Videographer-Glidecam.webp?w=1200",
+      title: "videografi wedding",
+    },
   ];
 
   /* ================= FETCH PRODUCTS ================= */
