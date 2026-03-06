@@ -32,7 +32,7 @@ app.use("/api/vendors", vendorPublicRoutes);
 // Connect ke MongoDB
 mongoose
   .connect(process.env.MONGO_URI)
-  .then(() => console.log(`✅ MongoDB Connected`))
+  .then(() => console.log(`✅ MongoDB Connecteddd`))
   .catch((err) => console.log(`❌ Error: ${err.message}`));
 
 app.get("/", (req, res) => {
