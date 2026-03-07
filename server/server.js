@@ -26,7 +26,7 @@ app.use("/api/orders", orderRoutes);
 app.use("/api/vendors", vendorRoutes);
 app.use("/api/auth", authRoutes);
 app.use("/api/admin", adminRoutes);
-app.use("/api/vendors", vendorPublicRoutes);
+app.use("/api/public/vendors", vendorPublicRoutes);
 
 
 // Connect ke MongoDB
