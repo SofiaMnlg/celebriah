@@ -38,7 +38,11 @@ mongoose
 app.get("/", (req, res) => {
   res.send("🚀 Celebriah API is running");
 });
-  
+
+app.get("/api/health", (req, res) => {
+  res.json({ status: "API running", app: "Celebriah" });
+});
+
 // Jalankan server
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, "0.0.0.0",() => console.log(`🚀 Server running on port ${PORT}`));
