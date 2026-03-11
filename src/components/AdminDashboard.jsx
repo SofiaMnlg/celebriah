@@ -19,8 +19,8 @@ export default function AdminDashboard() {
       };
 
       const [usersRes, vendorsRes] = await Promise.all([
-        axios.get("http://localhost:5000/api/admin/users", config),
-        axios.get("http://localhost:5000/api/admin/vendors", config),
+        axios.get("admin/users", config),
+        axios.get("admin/vendors", config),
       ]);
 
       setUsers(usersRes.data);
@@ -38,7 +38,7 @@ export default function AdminDashboard() {
       setLoading(true);
 
       const res = await fetch(
-        `http://localhost:5000/api/admin/export/${type}`,
+        `${import.meta.env.VITE_API_URL}/admin/export/${type}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

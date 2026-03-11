@@ -52,7 +52,7 @@ const AddProduct = () => {
       formData.append("image", imageFile); // ini penting!
 
       const response = await axios.post(
-        "http://localhost:5000/api/products",
+        "api/products",
         formData,
         {
           headers: {

@@ -14,7 +14,7 @@ const VendorCategory = () => {
     const fetchData = async () => {
       try {
         const { data } = await axios.get(
-          `http://localhost:5000/api/products/category/${category}`
+          `api/products/category/${category}`
         );
         setProducts(data);
 
