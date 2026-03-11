@@ -41,7 +41,7 @@ app.get("/", (req, res) => {
 
 app.get("/api/health", (req, res) => {
   res.json({ status: "API running", app: "Celebriah" });
-});
+}); 
 
 // Jalankan server
 const PORT = process.env.PORT || 5000;
