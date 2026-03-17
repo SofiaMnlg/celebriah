@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import axios from "axios";
+import API from "../api/axios";
 import { Row, Col, Card } from "react-bootstrap";
 
 const VendorCategory = () => {
